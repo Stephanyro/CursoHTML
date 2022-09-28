@@ -1,0 +1,38 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+/*relative - se pocisiona en relacion al pocisionamiento original*/
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/*static - se pocisiona en relacion a la pantalla*/
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: aquamarine;
+    z-index: 10; /*sirve para sobreponer el div o etiqeta*/
+}
+.absolute{
+    position: absolute;
+    /*top: 0px; !*Si hay varios divs el div se queda en la parte superior*!*/
+    bottom: 30px;
+    right: 0px;
+    background-color: aqua;
+}
+.relative.contenedor {
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+}
+.sticky{
+    background-color: cornflowerblue;
+    color: #D782BA;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
