@@ -1,0 +1,13 @@
+p-contenedor{
+    color: orange;
+}
+
+/*.contenedor p {*/
+/*    color: greenyellow;*/
+/*}*/
+body section.main .contenedor p{
+    color: blue;
+}
+.contenedor #boton-contenedor{
+    background-color: yellow;
+}

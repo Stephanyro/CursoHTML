@@ -1,0 +1,16 @@
+/* (1,0,0) */
+/* (0,1,0) */
+/* (0,0,1) */
+/* (0,0,0) */
+h1#h1-id.h1-clase{
+    color: aquamarine;
+}
+.h1-clase{
+    color: palevioletred;
+}
+h1{
+    color: rebeccapurple !important; /*Tratar de no usarlo*/
+}
+p{
+    color: #1f67a2;
+}

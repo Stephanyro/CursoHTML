@@ -1,0 +1,33 @@
+/*https://www.w3schools.com/css/css_pseudo_classes.asp*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.hover{
+    height: 100px;
+    width: 300px;
+    background-color: bisque;
+}
+.hover:hover{/**el hover se activa cuando el raton pasa por encima**/
+    background-color: burlywood;
+}
+.listado{
+    padding: 15px;
+    background-color: aquamarine;
+}
+.listado p:first-child{
+    color: white;
+}
+
+a:link{
+    color: pink;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: #1f67a2;
+}
+a:active{
+    color: greenyellow;
+}
